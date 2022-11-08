@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{108F8B09-458A-4406-AF52-71907BF14480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI.MediatR", "WebAPI\WebAPI.MediatR.csproj", "{108F8B09-458A-4406-AF52-71907BF14480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.Mediator", "WebAPI.Mediator\WebAPI.Mediator.csproj", "{30FEF28E-A9B4-47CF-9F04-E21B04594360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{108F8B09-458A-4406-AF52-71907BF14480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108F8B09-458A-4406-AF52-71907BF14480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108F8B09-458A-4406-AF52-71907BF14480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FEF28E-A9B4-47CF-9F04-E21B04594360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FEF28E-A9B4-47CF-9F04-E21B04594360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FEF28E-A9B4-47CF-9F04-E21B04594360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FEF28E-A9B4-47CF-9F04-E21B04594360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
