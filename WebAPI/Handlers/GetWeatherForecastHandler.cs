@@ -1,7 +1,7 @@
 ﻿using MediatR;
-using WebAPI.Queries;
+using WebAPI.MediatR.Queries;
 
-namespace WebAPI.Handlers;
+namespace WebAPI.MediatR.Handlers;
 
 public class GetWeatherForecastHandler : IRequestHandler<GetWeatherForecastQuery, IEnumerable<WeatherForecast>>
 {
@@ -9,7 +9,7 @@ public class GetWeatherForecastHandler : IRequestHandler<GetWeatherForecastQuery
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
-    
+
     public Task<IEnumerable<WeatherForecast>> Handle(GetWeatherForecastQuery request, CancellationToken cancellationToken)
     {
         var results = Enumerable.Range(1, 5).Select(index => new WeatherForecast

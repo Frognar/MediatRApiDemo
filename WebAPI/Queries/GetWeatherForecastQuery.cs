@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace WebAPI.Queries;
+namespace WebAPI.MediatR.Queries;
 
 public class GetWeatherForecastQuery : IRequest<IEnumerable<WeatherForecast>>
 {

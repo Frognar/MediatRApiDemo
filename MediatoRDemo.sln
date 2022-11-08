@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI.MediatR", "WebAPI\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.Mediator", "WebAPI.Mediator\WebAPI.Mediator.csproj", "{30FEF28E-A9B4-47CF-9F04-E21B04594360}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{0136EF02-9201-47E2-B1F0-14773032E878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{30FEF28E-A9B4-47CF-9F04-E21B04594360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30FEF28E-A9B4-47CF-9F04-E21B04594360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30FEF28E-A9B4-47CF-9F04-E21B04594360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0136EF02-9201-47E2-B1F0-14773032E878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0136EF02-9201-47E2-B1F0-14773032E878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0136EF02-9201-47E2-B1F0-14773032E878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0136EF02-9201-47E2-B1F0-14773032E878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

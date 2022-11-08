@@ -1,4 +1,4 @@
-namespace WebAPI;
+namespace WebAPI.MediatR;
 
 public class WeatherForecast
 {

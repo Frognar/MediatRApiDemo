@@ -1,9 +1,9 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
-using WebAPI.Queries;
+using WebAPI.MediatR.Queries;
 
-namespace WebAPI.Controllers;
+namespace WebAPI.MediatR.Controllers;
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
